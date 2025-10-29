@@ -13,7 +13,6 @@
 <body>
 
   <header>
-    <h1>Bem vindo ao meu site</h1>
     <div class="botoes-container">
 
       <form class="search-form">
@@ -21,8 +20,16 @@
           <i class="bi bi-search"></i> </a>
 
         <a href="carrinho.html" class="nav-icon-button cart-container" aria-label="Ver carrinho">
-          <i class="bi bi-cart"></i> <span class="cart-badge">0</span> 
+          <i class="bi bi-cart"></i> <span class="cart-badge">0</span>
         </a>
+    </div>
+    <div class="right-header">
+      <a href="login.html" class="login-icon-img" title="Login">
+        <img src="login-avatar.png" alt="Login"/>
+      </a>
+    </div>
+    <div class="logo-center">
+      <img src="logo1.png" alt="Street LGSF">
     </div>
     <nav class="navbar">
       <ul class="nav-links">
@@ -30,7 +37,6 @@
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Contato</a></li>
         <li><a id="cadastro" href="cadastro.html"><button>Fazer Cadastro</button></a></li>
-        <li><a id="login" href="login.html"><button>Login</button></a></li>
       </ul>
 
       <div class="burger">
@@ -43,8 +49,39 @@
 
   <main>
     <p>Esse é o conteúdo principal desse site</p>
-  </main>
 
+
+    <h2>Nossos Produtos</h2>
+    <section class="product-grid">
+
+      <div class="product-card">
+        <img src="Tênis1.avif" alt="Tênis 1">
+        <div class="product-info">
+          <h3 class="product-title">Tênis Nike Court Vision Low</h3>
+          <span class="product-price-original">R$599,99</span>
+          <span class="product-price-pix">R$417,99</span>
+          <p class="product-installments">ou 4x de R$ 110,00 sem juros</p>
+          <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="product-card">
+          <img src="Tênis2.avif" alt="Tênis 2">
+          <div class="product-info">
+            <h3 class="product-title">Tênis Nike Flex Experience Run 12</h3>
+            <span class="product-price-original">R$349,00</span>
+            <span class="product-price-pix">R$249,49</span>
+            <p class="product-installments">ou 3x de R$ 103,33 sem juros</p>
+            <button class="buy-button">Comprar</button>
+          </div>
+        </div>
+    </section>
+    <h2>Galeria com Efeito</h2>
+    <section class="image-gallery">
+      <img src="Tênis1.avif" alt="Descrição da Imagem 1">
+      <img src="Tênis2.avif" alt="Descrição da Imagem 2">
+    </section>
+  </main>
+  </main>
   <footer>
     <p>© 2025 - Gabs </p>
   </footer>
